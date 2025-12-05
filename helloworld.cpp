@@ -11,11 +11,6 @@ int comsub(int a, int b)
   return a - b;
 }
 
-int commul(int a, int b)
-{
-  return a * b;
-}
-
 int main()
 {
   cout << "hello,world!" << endl;
@@ -23,6 +18,5 @@ int main()
   cin >> a >> b;
   cout << complus(a, b) << endl;
   cout << comsub(a, b) << endl;
-  cout << commul(a, b) << endl;
   return 0;
 }
