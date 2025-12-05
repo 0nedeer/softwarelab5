@@ -1,0 +1,12 @@
+# 忽略编译文件
+*.exe
+*.o
+*.class
+*.bin
+
+# 忽略日志文件
+*.log
+
+# 忽略 IDE 配置文件夹
+.vscode/
+.idea/
